@@ -98,7 +98,7 @@ class Manager extends Employee {
       
     }
 
-    getRoleInfo(){
+    getRoleInfo():string{
         return `Manager of ${this.department}: ${this.name}`
     }
 }
