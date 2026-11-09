@@ -9,6 +9,7 @@ const multiplyValue = (value: number, multiplier?: number): number => {
 
 
 
+
 const processInput = (value : string | number | boolean) : string | number=>{
 
     if(typeof value === "string"){
@@ -58,7 +59,7 @@ interface Course {
 
 }
 
-const getPopularCourses = ( courses : Course[], minStudents:number)=>{
+const getPopularCourses = ( courses : Course[], minStudents:number):Course[]=>{
     return courses.filter((item)=>item.isPublished===true && item.students >= minStudents)
 }
 
