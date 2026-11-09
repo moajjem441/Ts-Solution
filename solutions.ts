@@ -91,10 +91,10 @@ class Employee {
 }
 
 class Manager extends Employee {
-    // private department : string;
+   
     constructor (name:string, baseSalary: number ,  private department : string){
         super(name,baseSalary)
-        // department = department;
+      
     }
 
     getRoleInfo(){
