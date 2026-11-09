@@ -15,6 +15,7 @@ But TypeScript likes to be strict. It asks, "What exactly will this Promise give
 Simple Code Example
 Let's look at how we fetch a user's data:
 
+```
 interface User {
     name: string;
     age: number;
@@ -32,6 +33,6 @@ async function start() {
     console.log(myUser.name); 
 }
 
-
+```
 Conclusion
 Using Promise<T> is like ordering a specific meal from a menu. You know exactly what will be on your plate when it arrives. This simple trick prevents errors, helps your code editor give you accurate suggestions, and makes asynchronous programming in TypeScript much easier and safer.
