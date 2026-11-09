@@ -31,7 +31,7 @@ const processInput = (value : string | number | boolean) : string | number=>{
 
 
 
-const formatCoordinate =(arr : readonly[number,number,string]) =>{
+const formatCoordinate =(arr : readonly[number,number,string]) : string =>{
     return `Location: ${arr[2]} (${arr[0]}, ${arr[1]})`
 
 }
