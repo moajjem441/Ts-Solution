@@ -18,6 +18,7 @@ protected: This is a mix of private and public. It is hidden from the outside wo
 readonly: This keyword means the data is for reading only. You can set its value once when you create the object, but after that, it can never be changed.
 
 Simple Code Example
+```
 class Employee {
     public company: string = "Tech Corp"; 
     readonly id: number;                  
@@ -31,7 +32,7 @@ class Manager extends Employee {
         return `Manager ${this.name} works at ${this.company}`;
     }
 }
-
+```
 
 Conclusion
 Using access modifiers stops you and other developers from making accidental mistakes. As we saw in the example, protected lets the Manager use the employee's name, but private safely hides the salary. These simple keywords make your TypeScript code secure, clean, and bug-free.
