@@ -1,13 +1,10 @@
-const multiplyValue =( val1 : number , val2? : number)=>{
- if(val2 !== undefined){
-    return val1 * val2 
-    
- } else {
-    return  val1 * 2  ;
-   
- }
-}
-
+const multiplyValue = (value: number, multiplier?: number): number => {
+    if (multiplier !== undefined) {
+        return value * multiplier;
+    } else {
+        return value * 2;
+    }
+};
 
 
 
