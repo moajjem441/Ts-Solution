@@ -12,4 +12,3 @@ As part of the technical writing task (Blog Task), I have written two detailed b
 2. [Mastering Access Modifiers in OOP](./access-modifiers.md)
 
 ---
-*Created as part of the TypeScript learning module.*
